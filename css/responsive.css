@@ -1,0 +1,125 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-img {
+        margin-right: 40px;
+    }
+    .time-line-item h3 {
+        font-size: 14px;
+    }
+    .side-nav {
+        width: 35%;
+        left: -35%;
+    }
+    .menu-profile h3 {
+        font-size: 15px;
+    }
+    .main-menu ul li a {
+        font-size: 15px;
+    }
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .time-line::after {
+        left: 8px;
+    }
+    .time-line ul li:nth-child(2n+1)::before,.time-line ul li:nth-child(2n)::before {
+        left: 3px;
+    }
+    .time-line ul li {
+        width: 100%;
+    }
+    .time-line-item {
+        margin-top: 40px;
+    }
+    .time-line ul li:nth-child(2n) .time {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    .time-line ul li:nth-child(2n+1) .time {
+        position: absolute;
+        top: 20px;
+        right: auto;
+        left: 40px;
+    }
+    .footer-text,.footer-link {
+        text-align: center;
+    }
+    .type-text {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .type-text span {
+        font-size: 16px;
+    }
+    .arrow {
+        display: none;
+    }
+    .about-img {
+        margin-right:0;
+        margin-bottom: 30px;
+    }
+    .socila-link {
+        text-align: center;
+    }
+    span.timeicon {
+        width: 100%;
+        text-align: center;
+    }
+    .time-line-item {
+        padding: 18px;
+    }
+    .time-line-item h3 {
+        font-size: 13px;
+    }
+    .about-img::after {
+        left: 0;
+        top: 0;
+    }
+    .portfolio-menu button {
+        float: left;
+        margin-bottom: 10px;
+        padding: 7px;
+        font-size: 10px;
+    }
+    .section-title.text-center h2 {
+        font-size: 25px;
+    }
+    .counter-wrap h3 > span {
+        font-size: 35px;
+    }
+    .hero-img {
+        width: 160px;
+        height: 160px;
+    }
+    .hero-img img {
+        width: 160px;
+        height: 160px;
+    }
+    .about-img::before {
+        display: none;
+    }
+    .works-info h2 {
+        font-size: 35px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+
+}
